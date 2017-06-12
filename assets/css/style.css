@@ -18,20 +18,24 @@ body {
     text-align: right;
     padding-top: 20px;
     padding-right: 160px;
-    position: relative;
+    z-index: -1;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #777777;
+}
 
-h1    {
+#name {
     background-color: #4aaaa5;
     color: white;
-    width: 200px;
+    width: 240px;
     text-align: center;
     margin-left: 110px;
-    position: absolute;
     margin: center;
-    height: 40px;
     padding-top: 20px;
+    height: 40px;
     margin-top: -45px;
 }
 
@@ -42,17 +46,17 @@ h1    {
     height: 400px;
     padding: 20px;
     margin-left: 110px;
-
 }
 
+#me {
+    color: #4aaaa5;
+}
 
 #line {
     padding-top: 5px;
     background-color: #d3d3d3;
     margin-bottom: 10px;
     width: 380px;
-
-
 }
 
 #profile {
@@ -61,10 +65,19 @@ h1    {
 }
 
 p {
-
     color: #777777;
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
 
+.row {
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    color: #777777;
+}
+
+#email,
+#namebox {
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    color: #777777;
 }
 
 .sidebar {
@@ -76,12 +89,18 @@ p {
     padding-bottom: 40px;
     position: fixed;
 
-
 }
 
-h2 {
-    color: #4aaaa5;
+#line2 {
+
+    padding-top: 2px;
+    background-color: #d3d3d3;
+    margin-bottom: 40px;
+    width: 200px;
+    margin: auto;
 }
+
+
 h3 {
     color: #4aaaa5;
 }
@@ -90,10 +109,99 @@ h3 {
     align-content: center;
 }
 
+#box1,
+#box2,
+#box3,
+#box4,
+#box5 {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 160px;
+}
+
+#hangman {
+    float: left;
+
+}
+
+#box1 {
+    float: left;
+    margin-left: -180px;
+    margin-top: 70px;
+}
+
+#turntable {
+    float: right;
+
+
+}
+#box2 {
+    float: right;
+    margin-left: 20px;
+    margin-top: -50px;
+
+}
+
+#earbuds {
+    float: left;
+    margin-top: 20px;
+
+
+}
+
+#box3 {
+    float: left;
+    margin-top: 90px;
+    margin-left: -180px;
+
+
+}
+
+#phone {
+    margin-left: 20px;
+    margin-top: 20px;
+    float: right;
+}
+
+#box4 {
+    float: right;
+    margin-top: -50px;
+
+}
+
+#tv {
+
+}
+
+#box5 {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #marginelement {
     background-color: #4aaaa5;
-
     width: 960px;
     bottom: 0;
     height: 65px;
@@ -110,5 +218,14 @@ h3 {
     bottom: 0;
     height: 40px;
     font-size: 10px;
+}
 
+#submit_button {
+    border: none;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }

@@ -5,9 +5,8 @@ body {
     background-image: url("../images/concrete_texture.png");
     line-height: 150%;
     margin-top: 0;
-    margin-left: 0;
+    margin: 0 auto;
 }
-
 
 .header {
     background-color: #ffffff;
@@ -18,8 +17,8 @@ body {
     text-align: right;
     padding-top: 20px;
     padding-right: 160px;
-    z-index: -1;
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    box-shadow: 0px 01px 0px #d3d3d3;
 }
 
 a {
@@ -36,19 +35,18 @@ a {
     margin: center;
     padding-top: 20px;
     height: 40px;
-    margin-top: -45px;
+    margin-top: -44px;
 }
 
 .mainsection {
     width: 380px;
     background-color: #ffffff;
     float: left;
-    height: 400px;
     padding: 20px;
     margin-left: 110px;
 }
 
-#me {
+#titlebox {
     color: #4aaaa5;
 }
 
@@ -75,31 +73,30 @@ p {
 }
 
 #email,
-#namebox {
+#namebox,
+#message {
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
     color: #777777;
+    padding: 10px;
 }
 
 .sidebar {
-    width: 250px;
+    width: 270px;
     background-color: #ffffff;
     float: left;
     margin-left: 580px;
     text-align: center;
     padding-bottom: 40px;
     position: fixed;
-
 }
 
 #line2 {
-
     padding-top: 2px;
     background-color: #d3d3d3;
     margin-bottom: 40px;
     width: 200px;
     margin: auto;
 }
-
 
 h3 {
     color: #4aaaa5;
@@ -134,29 +131,23 @@ h3 {
 
 #turntable {
     float: right;
-
-
 }
+
 #box2 {
     float: right;
     margin-left: 20px;
     margin-top: -50px;
-
 }
 
 #earbuds {
     float: left;
     margin-top: 20px;
-
-
 }
 
 #box3 {
     float: left;
     margin-top: 90px;
     margin-left: -180px;
-
-
 }
 
 #phone {
@@ -168,37 +159,18 @@ h3 {
 #box4 {
     float: right;
     margin-top: -50px;
-
 }
 
 #tv {
-
+    float:left;
+    margin-top: 20px;
 }
 
 #box5 {
-
+    float: left;
+    margin-top: 90px;
+    margin-left: -180px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #marginelement {
     background-color: #4aaaa5;

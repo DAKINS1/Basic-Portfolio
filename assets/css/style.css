@@ -24,6 +24,7 @@ body {
 a {
     text-decoration: none;
     color: #777777;
+    align-content: center;
 }
 
 #name {
@@ -102,9 +103,6 @@ h3 {
     color: #4aaaa5;
 }
 
-.icon {
-    align-content: center;
-}
 
 #box1,
 #box2,
